@@ -38,15 +38,15 @@ This project is intended for beginners learning Digital Design, Verilog HDL, and
 
 ## Logic Gates Implemented
 
-| Gate | Verilog Module | Testbench |
-| ---- | -------------- | --------- |
-| AND  | ✅              | ✅         |
-| OR   | ✅              | ✅         |
-| NOT  | ✅              | ✅         |
-| NAND | ✅              | ✅         |
-| NOR  | ✅              | ✅         |
-| XOR  | ✅              | ✅         |
-| XNOR | ✅              | ✅         |
+| Gate | Symbol | Boolean Expression           | Gate Type |
+| ---- | :----: | ---------------------------- | --------- |
+| AND  |   `&`  | **Y = A · B**                | Basic     |
+| OR   |  `\|`  | **Y = A + B**                | Basic     |
+| NOT  |   `~`  | **Y = A̅**                   | Basic     |
+| NAND |  `~&`  | **Y = (A · B)'**             | Universal |
+| NOR  |  `~\|` | **Y = (A + B)'**             | Universal |
+| XOR  |   `^`  | **Y = A ⊕ B = A'B + AB'**    | Exclusive |
+| XNOR |  `~^`  | **Y = (A ⊕ B)' = AB + A'B'** | Exclusive |
 
 ---
 
@@ -170,4 +170,6 @@ Verify Outputs
 | 0 | 1 | 0 |
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
+
+
 
