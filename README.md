@@ -171,7 +171,7 @@ Verify Outputs
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
-## 💻 Verilog Concepts Used
+## Verilog Concepts Used
 
 - Module Declaration
 - Input Ports
