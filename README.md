@@ -16,7 +16,7 @@ Implementation of the seven basic digital logic gates using **Verilog HDL**. Eac
 * [Tools Used](#tools-used)
 * [Simulation Workflow](#simulation-workflow)
 * [Truth Tables](#truth-tables)
-
+* [Verilog Concepts Used](#verilog-concepts-used)
 ---
 
 ## Overview
@@ -171,5 +171,17 @@ Verify Outputs
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
 
+## 💻 Verilog Concepts Used
+
+- Module Declaration
+- Input Ports
+- Output Ports
+- Dataflow Modeling
+- Continuous Assignment (`assign`)
+- Testbench
+- `initial` Block
+- `$monitor`
+- `$dumpfile`
+- `$dumpvars`
 
 
